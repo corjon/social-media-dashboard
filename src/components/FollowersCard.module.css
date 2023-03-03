@@ -1,0 +1,91 @@
+.card,
+.dark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 32px 0 24px;
+  background-color: #F1F3FA;
+  border-radius: 5px;
+  border-top: 4px solid transparent;
+  background-clip: padding-box;
+}
+
+.dark {
+  background-color: #252B42;
+}
+
+.socialMediaHandle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.socialMediaHandle p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #63687D;
+}
+
+.dark .socialMediaHandle p {
+  color:#8C98C6;
+}
+
+.total {
+  margin-bottom: 9px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #1D1F29;
+}
+
+.dark .total {
+  color: #FFFFFF;
+}
+
+.audience {
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #63687D;
+}
+
+.dark .audience {
+  color: #8C98C6;
+}
+
+.variance {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+}
+
+.variance p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+@media (min-width: 1440px) {
+  .card,
+  .dark {
+    max-width: 255px;
+  }
+
+  .card:hover {
+    background: #E1E4F0;
+    cursor: pointer;
+  }
+
+  .dark:hover {
+    background-color: #333A55;
+    cursor: pointer;
+  }
+}

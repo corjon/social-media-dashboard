@@ -1,0 +1,74 @@
+.card,
+.dark {
+  padding: 26px 31px 19px 24px;
+  background-color: #F1F3FA;
+  border-radius: 5px;
+}
+
+.dark {
+  background-color: #252B42;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.socialMedia p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #63687D;
+}
+
+.dark .socialMedia p {
+  color: #8C98C6;
+}
+
+.amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amount > p {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #1D1F29;
+}
+
+.dark .amount > p {
+  color: #FFFFFF;
+}
+
+.variance {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.variance p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+@media (min-width: 1440px) {
+  .card,
+  .dark {
+    max-width: 255px;
+  }
+
+  .card:hover {
+    background-color: #E1E4F0;
+    cursor: pointer;
+  }
+
+  .dark:hover {
+    background-color: #333A55;
+    cursor: pointer;
+  }
+}
