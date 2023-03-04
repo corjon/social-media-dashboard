@@ -25,7 +25,7 @@ export default function App() {
             <div className={styles.switchContainer}>
               <p>Dark Mode</p>
               <label>
-                <input type="checkbox" ariaLabel="toggle" className={styles.swtich} onChange={handleChange} />
+                <input type="checkbox" title="switch" aria-label="toggle" className={styles.swtich} onChange={handleChange} />
                 <span></span>
               </label>
             </div>
