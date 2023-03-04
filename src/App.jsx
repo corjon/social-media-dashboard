@@ -35,11 +35,11 @@ export default function App() {
         <div className={styles.wrapper}>
           <div className={styles.followersContainer}>
             <FollowersCard
-              image={'./src/assets/icon-facebook.svg'}
+              image={require('../assets/icon-facebook.svg')}
               username={'@nathanf'}
               total={'1987'}
               audience={'Followers'}
-              icon={'./src/assets/icon-up.svg'}
+              icon={require('../assets/icon-up.svg')}
               variance={'12'}
               color={'#178FF5'}
               varianceColor={'#1EB589'}
