@@ -4,6 +4,11 @@ import FollowersCard from './components/FollowersCard.jsx';
 import OverviewCard from './components/OverviewCard.jsx';
 import { ThemeContext } from './components/ThemeContext.jsx';
 import facebook from './assets/icon-facebook.svg';
+import twitter from './assets/icon-twitter.svg';
+import instagram from './assets/icon-instagram.svg';
+import youtube from './assets/icon-youtube.svg';
+import upArrow from './assets/icon-up.svg';
+import downArrow from './assets/icon-down.svg';
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -40,40 +45,40 @@ export default function App() {
               username={'@nathanf'}
               total={'1987'}
               audience={'Followers'}
-              icon={'./assets/icon-up.svg'}
+              icon={upArrow}
               variance={'12'}
               color={'#178FF5'}
               varianceColor={'#1EB589'}
             />
 
             <FollowersCard
-              image={'./src/assets/icon-twitter.svg'}
+              image={twitter}
               username={'@nathanf'}
               total={'1044'}
               audience={'Followers'}
-              icon={'./src/assets/icon-up.svg'}
+              icon={upArrow}
               variance={'99'}
               color={'#1DA1F2'}
               varianceColor={'#1EB589'}
             />
 
             <FollowersCard
-              image={'./src/assets/icon-instagram.svg'}
+              image={instagram}
               username={'@realnathanf'}
               total={'11k'}
               audience={'Followers'}
-              icon={'./src/assets/icon-up.svg'}
+              icon={upArrow}
               variance={'1099'}
               color={'#EE877E'}
               varianceColor={'#1EB589'}
             />
 
             <FollowersCard
-              image={'./src/assets/icon-youtube.svg'}
+              image={youtube}
               username={'Nathan F.'}
               total={'8239'}
               audience={'Subscribers'}
-              icon={'./src/assets/icon-down.svg'}
+              icon={downArrow}
               variance={'144'}
               color={'#C4032B'}
               varianceColor={'#DC414C'}
@@ -87,70 +92,70 @@ export default function App() {
               type={'Page Views'}
               image={facebook}
               number={'87'}
-              icon={'./src/assets/icon-up.svg'}
+              icon={upArrow}
               percent={'3'}
               varianceColor={'#1EB589'}
             />
 
             <OverviewCard
               type={'Likes'}
-              image={'./src/assets/icon-facebook.svg'}
+              image={facebook}
               number={'52'}
-              icon={'./src/assets/icon-down.svg'}
+              icon={downArrow}
               percent={'2'}
               varianceColor={'#DC414C'}
             />
 
             <OverviewCard
               type={'Likes'}
-              image={'./src/assets/icon-instagram.svg'}
+              image={instagram}
               number={'5462'}
-              icon={'./src/assets/icon-up.svg'}
+              icon={upArrow}
               percent={'2257'}
               varianceColor={'#1EB589'}
             />
 
             <OverviewCard
               type={'Profile Views'}
-              image={'./src/assets/icon-instagram.svg'}
+              image={instagram}
               number={'52k'}
-              icon={'./src/assets/icon-up.svg'}
+              icon={upArrow}
               percent={'1375'}
               varianceColor={'#1EB589'}
             />
 
             <OverviewCard
               type={'Retweets'}
-              image={'./src/assets/icon-twitter.svg'}
+              image={twitter}
               number={'117'}
-              icon={'./src/assets/icon-up.svg'}
+              icon={upArrow}
               percent={'303'}
               varianceColor={'#1EB589'}
             />
 
             <OverviewCard
               type={'Likes'}
-              image={'./src/assets/icon-twitter.svg'}
+              image={twitter}
               number={'507'}
-              icon={'./src/assets/icon-up.svg'}
+              icon={upArrow}
               percent={'553'}
               varianceColor={'#1EB589'}
             />
 
             <OverviewCard
               type={'Likes'}
-              image={'./src/assets/icon-youtube.svg'}
+              image={youtube}
               number={'107'}
-              icon={'./src/assets/icon-down.svg'}
+              icon={downArrow}
               percent={'19'}
               varianceColor={'#DC414C'}
             />
 
             <OverviewCard
               type={'Total Views'}
-              image={'./src/assets/icon-youtube.svg'}
+              image={youtube}
               number={'1407'}
-              icon={'./src/assets/icon-down.svg'}
+              icon={downArrow}
               percent={'12'}
               varianceColor={'#DC414C'}
             />
