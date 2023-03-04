@@ -3,6 +3,7 @@ import styles from './App.module.css';
 import FollowersCard from './components/FollowersCard.jsx';
 import OverviewCard from './components/OverviewCard.jsx';
 import { ThemeContext } from './components/ThemeContext.jsx';
+import facebook from './assets/icon-facebook.svg';
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -35,11 +36,11 @@ export default function App() {
         <div className={styles.wrapper}>
           <div className={styles.followersContainer}>
             <FollowersCard
-              image={require('../assets/icon-facebook.svg')}
+              image={facebook}
               username={'@nathanf'}
               total={'1987'}
               audience={'Followers'}
-              icon={require('../assets/icon-up.svg')}
+              icon={'./assets/icon-up.svg'}
               variance={'12'}
               color={'#178FF5'}
               varianceColor={'#1EB589'}
@@ -84,7 +85,7 @@ export default function App() {
           <div className={styles.overviewContainer}>
             <OverviewCard
               type={'Page Views'}
-              image={'./src/assets/icon-facebook.svg'}
+              image={facebook}
               number={'87'}
               icon={'./src/assets/icon-up.svg'}
               percent={'3'}
